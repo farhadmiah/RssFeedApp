@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.farhad.rssfeedapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        android:debuggable='true'
+        />
+        <activity
+            android:name=".WorldNews"
+            android:label="@string/title_activity_world_news"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UK"
+            android:label="@string/title_activity_uk"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sport"
+            android:label="@string/title_activity_sport"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Politics"
+            android:label="@string/title_activity_politics"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Entertainment"
+            android:label="@string/title_activity_entertainment"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RssFeedApp</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="spinner">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+    <string name="title_activity_world_news">World News</string>
+    <string name="title_activity_uk">UK</string>
+    <string name="title_activity_sport">Sport</string>
+    <string name="title_activity_politics">Politics</string>
+    <string name="title_activity_entertainment">Entertainment</string>
+
+
+</resources>
